@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p, b{
+    margin: 0;
+}
+.form-control:focus,
+.form-select:focus {
+    border-color: #007bff;
+    /* Change the border color to blue */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Change the shadow color to blue */
+    outline: none;
+    /* Remove the default outline */
+}
+
+.form-control{
+    text-transform: uppercase;
+}
+
+label{
+    color: #606676;
+    margin: 0px;
+}
+
+div, section{
+    margin-top: 4px;
+}
